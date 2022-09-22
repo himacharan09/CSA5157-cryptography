@@ -20,7 +20,10 @@ int main() {
 	printf("\nEnter the key\n");
 	gets(key);
 	// Encryption 
-	for (i=0;key[i]!=NULL;i++) {
+	for (i=0;key[i]!=NULL;i++) 
+	
+	
+	{
 		c=findRow(key[i]);
 		r=findColumn(message[i]);
 		emessage[i]=arr[r][c];
